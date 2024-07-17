@@ -1,8 +1,25 @@
 
-.body {
-    background-color: midnightblue;
+body {
+    background-color: rgb(28, 44, 65);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+
+.links {
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
 }
